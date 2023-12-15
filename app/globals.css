@@ -2,26 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.hero {
+  background: linear-gradient(339deg, #0c2442 38%, #4f7492 100%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.expectations-section {
+  padding-bottom: clamp(600px, 80vh, 1500px);
+}
+
+.expectation-container {
+  padding: 20px;
+  border-radius: 9px;
+  background-color: white;
+  box-shadow: 0px 24px 70px 0px rgba(0, 0, 0, 0.1);
+}
+
+.case-studies-container > img {
+  box-shadow: 0px 2px 7px 0px rgba(20, 20, 43, 0.06);
+}
+
+.services-container > div {
+  box-shadow: 0px 24px 70px 0px rgba(0, 0, 0, 0.1);
+}
+
+.guarantee-container {
+  background: linear-gradient(355deg, #0c2442 0%, #4f7492 100%);
 }
