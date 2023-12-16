@@ -20,7 +20,12 @@ const Accordion = ({ question, answer }: AccordionProps) => {
         <div className="grid text-left gap-3">
           <p className="font-bold min-[625px]:text-xl mt-3">{question}</p>
           {answer.map((line, idx) => (
-            <p key={idx} className={`${toggle ? "" : "hidden"} mr-[130px]`}>
+            <p
+              key={idx}
+              className={`${
+                toggle ? "" : "hidden"
+              } min-[670px]:mr-[130px] mr-8`}
+            >
               {line}
             </p>
           ))}
