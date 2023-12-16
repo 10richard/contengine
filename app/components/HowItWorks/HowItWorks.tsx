@@ -6,9 +6,9 @@ const HowItWorks = () => {
     <section className="flex justify-center pt-28 pb-[450px] bg-[#F7F7F7]">
       <div className="w-5/6 flex flex-col items-center gap-16 text-center">
         <div className="grid gap-5 max-w-[550px]">
-          <h1 className="text-5xl max-[500px]:text-4xl font-semibold">
+          <h2 className="text-5xl max-[500px]:text-4xl font-semibold">
             How Does it Work?
-          </h1>
+          </h2>
           <p>
             We design and implement a full funnel marketing strategy using our
             unique{" "}
@@ -36,9 +36,9 @@ const HowItWorks = () => {
                   process.title == null ? "hidden" : ""
                 } bg-primary table rounded-lg max-[425px]:px-10 px-16 py-5 mx-auto absolute left-0 right-0 top-0 translate-y-[-50%]`}
               >
-                <h1 className="text-3xl max-[600px]:text-2xl text-white font-semibold">
+                <h2 className="text-3xl max-[600px]:text-2xl text-white font-semibold">
                   {process.title}
-                </h1>
+                </h2>
               </div>
 
               <div className="grid place-items-center gap-10">

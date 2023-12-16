@@ -13,13 +13,13 @@ const Trusted = () => {
   return (
     <section className="trusted bg-[#E2E2E2] flex justify-center py-28">
       <div className="grid justify-center place-items-center gap-20">
-        <h1 className="font-semibold text-center text-5xl leading-tight max-[750px]:text-[2rem] max-[750px]:leading-tight px-5">
+        <h2 className="font-semibold text-center text-5xl leading-tight max-[750px]:text-[2rem] max-[750px]:leading-tight px-5">
           Trusted By{" "}
           <span className="text-secondary">
             Leading E-commerce <br className="max-[567px]:hidden" /> Businesses
           </span>{" "}
           Around The Globe
-        </h1>
+        </h2>
 
         <div className="w-5/6 inline-flex flex-nowrap overflow-hidden max-[900px]:hidden">
           <ul className="flex items-center justify-center md:justify-start [&_li]:mx-10 [&_img]:max-w-none animate-infinite-scroll">

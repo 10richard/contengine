@@ -6,9 +6,9 @@ const WhoIsThisFor = () => {
   return (
     <section className="grid place-items-center py-28">
       <div className="text-center grid gap-5 mb-12 w-4/6 max-w-[725px] min-w-[300px]">
-        <h1 className="text-5xl max-[500px]:text-4xl font-semibold">
+        <h2 className="text-5xl max-[500px]:text-4xl font-semibold">
           Who is this for?
-        </h1>
+        </h2>
         <p className="text-xl max-[500px]:text-lg">
           This is not for ecommerce businesses that do not have happy customers.
           The method outlined will not work. If you are in this category, we
