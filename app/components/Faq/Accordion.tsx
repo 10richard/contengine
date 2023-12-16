@@ -14,13 +14,13 @@ const Accordion = ({ question, answer }: AccordionProps) => {
     <div className="grid gap-2">
       <button
         type="button"
-        className="flex justify-between items-center gap-8 w-full"
+        className="flex justify-between items-center gap-5 w-full"
         onClick={() => setToggle((toggle) => !toggle)}
       >
         <div className="grid text-left gap-3">
-          <p className="font-bold min-[625px]:text-xl">{question}</p>
+          <p className="font-bold min-[625px]:text-xl mt-3">{question}</p>
           {answer.map((line, idx) => (
-            <p key={idx} className={`${toggle ? "" : "hidden"}`}>
+            <p key={idx} className={`${toggle ? "" : "hidden"} mr-[130px]`}>
               {line}
             </p>
           ))}
@@ -34,7 +34,7 @@ const Accordion = ({ question, answer }: AccordionProps) => {
           alt="Chevron down"
         />
       </button>
-      <span className="bg-black h-[1px] my-2"></span>
+      <span className="bg-black h-[1px] my-4"></span>
     </div>
   );
 };
