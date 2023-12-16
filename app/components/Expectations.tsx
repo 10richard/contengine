@@ -4,9 +4,9 @@ const Expectations = () => {
   return (
     <section className="expectations-section bg-[#EBEBEB] flex justify-center pt-20 relative">
       <div className="flex flex-col items-center gap-20 w-[90%] text-center">
-        <h1 className="text-5xl max-[500px]:text-4xl font-semibold">
+        <h2 className="text-5xl max-[500px]:text-4xl font-semibold">
           What Should I Expect?
-        </h1>
+        </h2>
 
         <div className="expectations grid gap-5 max-w-[650px]">
           <div className="expectation-container">

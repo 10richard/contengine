@@ -8,7 +8,7 @@ const CalendlyBooking = () => {
       id="calendlybooking"
       className="text-center flex flex-col gap-10 pt-20 pb-28 bg-[#F7F7F7]"
     >
-      <h1 className="text-5xl font-medium">Ready to Scale?</h1>
+      <h2 className="text-5xl font-medium">Ready to Scale?</h2>
 
       <InlineWidget
         styles={{ height: "750px" }}

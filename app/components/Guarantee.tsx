@@ -4,9 +4,9 @@ const Guarantee = () => {
   return (
     <div className="guarantee-container flex max-[1035px]:flex-col items-center gap-10 px-16 max-[565px]:px-5 py-10 absolute top-0 translate-y-[-50%] w-5/6 min-w-[300px] max-w-[1000px] rounded-2xl">
       <div className="grid gap-5 text-white">
-        <h1 className="text-5xl max-[500px]:text-4xl font-medium">
+        <h2 className="text-5xl max-[500px]:text-4xl font-medium">
           Our Guarantee
-        </h1>
+        </h2>
         <p className="min-[500px]:text-lg max-w-[850px]">
           As we are completely confident in the results our 3-step growth
           accelerator will produce, we are offering a 200% ROI guarantee. This
