@@ -77,7 +77,7 @@ const Expectations = () => {
 
       <div className="flex max-[700px]:flex-col justify-center items-center gap-10 absolute bottom-0 right-0 left-0 mx-auto max-w-[700px]">
         <div className="min-[700px]:absolute top-[40%] left-[65%] text-center">
-          <h1 className="text-xl font-bold">Dave Ten</h1>
+          <h2 className="text-xl font-bold">Dave Ten</h2>
           <em className="font-medium">
             Founder & CEO <br /> Contengine
           </em>
