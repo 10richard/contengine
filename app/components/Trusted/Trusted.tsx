@@ -44,9 +44,9 @@ const Trusted = () => {
             <li>
               <img className="w-[125px]" src={nutricost.src} alt="Netflix" />
             </li>
-            <li>
+            {/* <li>
               <img className="w-[125px]" src={jkBoots.src} alt="Paypal" />
-            </li>
+            </li> */}
             <li>
               <img className="w-[125px]" src={leaseEnd.src} alt="Sony" />
             </li>
@@ -73,9 +73,9 @@ const Trusted = () => {
             <li>
               <img className="w-[125px]" src={nutricost.src} alt="Netflix" />
             </li>
-            <li>
+            {/* <li>
               <img className="w-[125px]" src={jkBoots.src} alt="Paypal" />
-            </li>
+            </li> */}
             <li>
               <img className="w-[125px]" src={leaseEnd.src} alt="Sony" />
             </li>
