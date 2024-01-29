@@ -8,9 +8,7 @@ const Header = () => {
         src={contengineLogo.src}
         alt="Contengine logo"
       />
-      <h2 className="font-semibold">
-        ATTENTION: FOUNDERS AND CEOS OF E-COMMERCE BUSINESSES
-      </h2>
+      <h2 className="font-semibold">ATTENTION: CONTENT CREATORS & EDUCATORS</h2>
     </header>
   );
 };

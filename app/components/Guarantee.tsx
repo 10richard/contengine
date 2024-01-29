@@ -9,9 +9,9 @@ const Guarantee = () => {
         </h2>
         <p className="min-[500px]:text-lg max-w-[850px]">
           As we are completely confident in the results our 3-step growth
-          accelerator will produce, we are offering a 200% ROI guarantee. This
-          means that if you do not earn AT LEAST 2x your initial investment by
-          the end of the contract, we will work for free.
+          accelerator will produce, we are offering a{" "}
+          <strong>NO RISK GUARANTEE</strong>. This means that if we don’t earn
+          you money, you don’t pay us a cent.
         </p>
       </div>
       <img

@@ -20,7 +20,7 @@ const Expectations = () => {
           <div className="expectation-container">
             <p>
               <strong className="text-primary">
-                New marketing assets and systems
+                New marketing funnels and systems
               </strong>{" "}
               that enable you to{" "}
               <strong className="text-primary">
@@ -35,41 +35,16 @@ const Expectations = () => {
               <strong className="text-primary">
                 growth strategy that accumulates free cash flow
               </strong>{" "}
-              without guesswork and wasting time and money.
+              without guesswork and{" "}
+              <strong className="text-primary">wasting time and money.</strong>
             </p>
           </div>
           <div className="expectation-container">
             <p>
-              <strong className="text-primary">
-                Increased enterprise value
-              </strong>{" "}
-              in preparation for any financial event coming up.
-            </p>
-          </div>
-          <div className="expectation-container">
-            <p>
-              A new{" "}
-              <strong className="text-primary">
-                system that finds and converts your dream customers into loyal
-                fans.
-              </strong>
-            </p>
-          </div>
-          <div className="expectation-container">
-            <p>
-              The ability to{" "}
-              <strong className="text-primary">
-                never compete as a commodity against competitors
-              </strong>{" "}
-              with an inferior service to yours ever again.
-            </p>
-          </div>
-          <div className="expectation-container">
-            <p>
-              <strong className="text-primary">
-                Streamlined sales channels
-              </strong>{" "}
-              in 3 months.
+              <strong className="text-primary">A new system</strong> that{" "}
+              <strong className="text-primary">warms up and converts</strong>{" "}
+              your audience into{" "}
+              <strong className="text-primary">paying clients.</strong>
             </p>
           </div>
         </div>
@@ -79,7 +54,7 @@ const Expectations = () => {
         <div className="min-[700px]:absolute top-[40%] left-[65%] text-center">
           <h2 className="text-xl font-bold">Dave Ten</h2>
           <em className="font-medium">
-            Founder & CEO <br /> Contengine
+            Growth Operator <br /> Contengine
           </em>
         </div>
         <img

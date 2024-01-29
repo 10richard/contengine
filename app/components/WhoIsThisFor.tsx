@@ -10,9 +10,10 @@ const WhoIsThisFor = () => {
           Who is this for?
         </h2>
         <p className="text-xl max-[500px]:text-lg">
-          This is not for ecommerce businesses that do not have happy customers.
-          The method outlined will not work. If you are in this category, we
-          suggest focusing on product development before scaling.
+          This is not for content creators that do not have at least{" "}
+          <strong>100k</strong> cross-channel followers. The method outlined
+          will not work. If you are in this category, we suggest focusing on
+          content production before scaling offers.
         </p>
       </div>
 
@@ -26,48 +27,42 @@ const WhoIsThisFor = () => {
 
           <div className="grid gap-5 min-[450px]:text-lg">
             <p>
-              This is for established E-commerce businesses that want to{" "}
+              This is for established content creators that want to{" "}
               <strong className="text-primary">
-                increase revenue by +300% YoY.
+                unlock a new stream of revenue
               </strong>
             </p>
             <p>
-              If you are a product-based Founder and need to{" "}
+              If you love making content and want someone to{" "}
               <strong className="text-primary">
-                get your product into the hands of whoever needs it.
+                handle the marketing and operations of the business
               </strong>
             </p>
             <p>
-              If you’re a specialist or the best at what you do but{" "}
-              <strong className="text-primary">
-                haven’t reached your full potential.
-              </strong>
-            </p>
-            <p>
-              If you created a great product but:
+              If you created a great personal brand but:
               <br />
               a. Are{" "}
               <strong className="text-primary">
-                too involved in the process
+                too involved in the business
               </strong>
               <br />
               b.{" "}
               <strong className="text-primary">
-                Need to get in front of more of the right people
+                Not making as much as you hope to
               </strong>
             </p>
             <p>
-              If you’ve got the industry's best kept secret but you're still{" "}
+              If you’ve got the industry's best kept secret but you’re still{" "}
               <strong className="text-primary">
-                losing to businesses with worse products.
+                not effectively monetizing your audience
               </strong>
             </p>
             <p>
               If you’re looking to{" "}
               <strong className="text-primary">
-                expand into new territories
+                expand into new revenue heights
               </strong>{" "}
-              but you don’t know the best way.
+              but you don’t know the best way to so.
             </p>
           </div>
         </div>
@@ -83,14 +78,14 @@ const WhoIsThisFor = () => {
             <p>
               If you're{" "}
               <strong className="text-primary">worried about cash flow</strong>{" "}
-              and keeping your sales pipeline full.
+              and covering your expenses.
             </p>
             <p>
               If you’ve{" "}
               <strong className="text-primary">
-                tried ads before but never got it to work
+                tried marketing before but never got it to work
               </strong>{" "}
-              and think ads doesn’t work!
+              and think marketing doesn’t work!
             </p>
             <p>
               If you’re giving all you can but{" "}
@@ -100,17 +95,10 @@ const WhoIsThisFor = () => {
             <p>
               If you’re{" "}
               <strong className="text-primary">
-                tired of your team moving slower than your vision
+                tired of feeling burnt out
               </strong>{" "}
-              and want them to{" "}
-              <strong className="text-primary">
-                focus on activities to drive the business forward.
-              </strong>
-            </p>
-            <p>
-              If you’re{" "}
-              <strong className="text-primary">sick of burning money</strong> on
-              agencies who overcharge, over promise and underdeliver.
+              and <strong className="text-primary">not being sure</strong> on
+              what activates drive the business forward.
             </p>
             <p>
               This is for people{" "}
