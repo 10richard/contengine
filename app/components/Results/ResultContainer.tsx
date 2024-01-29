@@ -19,13 +19,13 @@ const ResultContainer = ({
   follower_count,
 }: ResultContainerProps) => {
   return (
-    <div className="flex max-[900px]:flex-col max-w-[910px] max-[900px]:w-[90%] rounded-lg overflow-hidden">
+    <div className="flex max-[950px]:flex-col max-w-[910px] max-[950px]:w-[90%] rounded-lg overflow-hidden min-w-[500px]:shadow-lg">
       <img
         src={img}
         alt={`${name} result working with Contengine`}
-        className="w-1/2 min-w-[250px] object-cover max-[900px]:self-center max-[900px]:rounded-t-lg"
+        className="w-1/2 min-w-[250px] object-cover max-[950px]:self-center max-[950px]:rounded-t-lg"
       />
-      <div className="bg-white px-6 py-8 min-[900px]:w-1/2">
+      <div className="bg-white px-6 max-[500px]:px-4 py-8 min-[951px]:w-1/2">
         <div className="flex flex-col gap-5 mb-8">
           <h3 className="text-3xl max-[500px]:text-2xl font-semibold">
             {name}: <br /> {title}
