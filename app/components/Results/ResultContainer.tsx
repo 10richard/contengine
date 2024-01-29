@@ -19,20 +19,20 @@ const ResultContainer = ({
   follower_count,
 }: ResultContainerProps) => {
   return (
-    <div className="flex max-w-[910px] rounded-lg overflow-hidden shadow-lg">
+    <div className="flex max-[900px]:flex-col max-w-[910px] max-[900px]:w-[90%] rounded-lg overflow-hidden">
       <img
         src={img}
         alt={`${name} result working with Contengine`}
-        className="w-1/2 object-cover"
+        className="w-1/2 min-w-[250px] object-cover max-[900px]:self-center max-[900px]:rounded-t-lg"
       />
-      <div className="bg-white px-6 py-8 w-1/2">
+      <div className="bg-white px-6 py-8 min-[900px]:w-1/2">
         <div className="flex flex-col gap-5 mb-8">
-          <h3 className="text-3xl font-semibold">
+          <h3 className="text-3xl max-[500px]:text-2xl font-semibold">
             {name}: <br /> {title}
           </h3>
-          <p className="text-lg">{about}</p>
+          <p className="text-lg max-[500px]:text-base">{about}</p>
         </div>
-        <div className="flex items-center justify-between max-w-[400px]">
+        <div className="flex max-[545px]:flex-col max-[545px]:gap-5 min-[545px]:items-center justify-between max-w-[400px] rounded-lg">
           <div className="flex items-center gap-2">
             <img
               src={youtubeIcon.src}

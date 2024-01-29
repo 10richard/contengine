@@ -6,10 +6,10 @@ import antChaffee from "@/public/images/results/ant-chaffee.png";
 const Results = () => {
   return (
     <section className="flex flex-col items-center py-20 bg-[#E2E2E2]">
-      <h2 className="text-5xl max-[500px]:text-4xl font-semibold mb-[60px]">
+      <h2 className="text-center text-5xl max-[500px]:text-4xl font-semibold mb-[60px]">
         Results From Our Network
       </h2>
-      <div className="flex flex-col gap-24">
+      <div className="flex flex-col items-center gap-24">
         <ResultContainer
           name="Matthew Peech"
           title="$652,720 Earned in 2023"
